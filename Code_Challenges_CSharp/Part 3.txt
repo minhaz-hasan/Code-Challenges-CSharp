@@ -1,0 +1,13 @@
+﻿Q:  In part 2 you calculated the average of all the reviews. We call this number the 
+	TrustScore. In reality the formula for the TrustScore is more complex. The goal of 
+	the TrustScore is to predict what score the next review will give the webshop. With 
+	this in mind do you have any ideas on how to improve the formula? You don’t have to 
+	implement your ideas, just explain it in text.
+
+
+A: Not really, but based on the reviews of the pages I think google prediction api is a good choice.
+   It uses two very good numerical analysis models regression and categorization. And I think this api is 
+   a good fit for prediction because the training data based on ratings of customers, most effective meaning of their comments 
+   e.g. "Excellent" or "Terrible", scores of previous sessions. And I think regression numerical analyzer can calculate numerical
+   value of the prediction(Although I never use it). But I guess it's a good option and another way you can improve your formula by implementing
+   Bayessian probability theory or effective prediction and forcasting algorithms like markov chain algorithm I think.
