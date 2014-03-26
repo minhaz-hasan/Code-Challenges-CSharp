@@ -9,6 +9,7 @@ namespace Code_Challenges_CSharp
     {
         private static string _htmlContent = ProcessUrl("http://www.trustpilot.co.uk/review/www.ryanair.com");
 
+        //Part 2 Answer 
         public static void ProcessAverageRating()
         {
             var html = GetHtmlStringWithoutSpace(_htmlContent);
@@ -24,7 +25,7 @@ namespace Code_Challenges_CSharp
         }
 
 
-        //Part 2 Answer 
+        
         private static string GetAverage(string html, string strValue, int startPos, int startIdx,
             List<double> extractListOfRatings)
         {
