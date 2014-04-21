@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HtmlContentHelper.cs" />
     <Compile Include="HtmlContentRetrievalHelper.cs" />
     <Compile Include="Interfaces\IHtmlContentProcessor.cs" />
     <Compile Include="Interfaces\IPrinter.cs" />
