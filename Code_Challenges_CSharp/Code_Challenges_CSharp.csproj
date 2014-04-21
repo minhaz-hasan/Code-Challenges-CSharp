@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="HtmlContentRetrievalHelper.cs" />
     <Compile Include="Interfaces\IHtmlContentProcessor.cs" />
+    <Compile Include="Interfaces\IPrinter.cs" />
     <Compile Include="Interfaces\IUrlProcessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
