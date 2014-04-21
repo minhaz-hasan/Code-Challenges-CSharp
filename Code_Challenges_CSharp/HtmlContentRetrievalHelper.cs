@@ -7,7 +7,7 @@ namespace Code_Challenges_CSharp
 {
     class HtmlContentRetrievalHelper
     {
-        private static string _htmlContent = ProcessUrl("http://www.trustpilot.co.uk/review/www.ryanair.com");
+        //private static string _htmlContent = ProcessUrl("http://www.trustpilot.co.uk/review/www.ryanair.com");
 
         //Part 2 Answer 
         public static void ProcessAverageRating()
