@@ -7,6 +7,6 @@ namespace Code_Challenges_CSharp.Interfaces
     /// </summary>
     public interface IHtmlContentProcessor
     {
-        List<double> GetReviews(string html); // Renames it to GetReviews() from GetAverage()
+        List<double> GetReviews(string html); // Renamed it to GetReviews() from GetAverage()
     }
 }
