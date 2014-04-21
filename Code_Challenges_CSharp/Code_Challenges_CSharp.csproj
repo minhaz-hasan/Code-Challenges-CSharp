@@ -46,6 +46,7 @@
     <Compile Include="Interfaces\IUrlProcessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\HtmlContentProcessorService.cs" />
     <Compile Include="Services\UrlProcessorService.cs" />
   </ItemGroup>
   <ItemGroup>
