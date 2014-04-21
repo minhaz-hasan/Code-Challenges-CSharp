@@ -1,7 +1,8 @@
-﻿namespace Code_Challenges_CSharp
+﻿namespace Code_Challenges_CSharp.Interfaces
 {
     /// <summary>
-    /// IUrlProcessor defines the actions for retrieving html content and stores that content and process that content.</summary>
+    /// IUrlProcessor defines the actions for retrieving html content and stores that content and process that content.
+    /// </summary>
     public interface IUrlProcessor
     {
         string HtmlData { get; } // Alternative of static variable I think and renamed it from _htmlContent to HtmlData.
