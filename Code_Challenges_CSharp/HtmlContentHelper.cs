@@ -7,7 +7,7 @@ namespace Code_Challenges_CSharp
     /// <summary>
     /// This abstract class defines basic mechanism of printing the html characters and average reviews.
     /// </summary>
-    public class HtmlContentHelper
+    public abstract class HtmlContentHelper
     {
         private readonly IUrlProcessor _uriProcessor;
         private readonly IHtmlContentProcessor _htmlContentProcessor;
